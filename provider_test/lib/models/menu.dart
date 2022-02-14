@@ -2,10 +2,12 @@ import 'package:flutter/material.dart';
 
 class MenuModel {
   static List<String> items = [
-    'Gas Gallon Type 1',
-    'Gas Gallon Type 2',
-    'Gas Gallon Type 3',
-    'Gas Gallon Type 4'
+    'I like you cause you got that somethin',
+    'That I need in my life so give it to me',
+    'Cause you got that',
+    'Like you cause you got that somethin',
+    'That I need in my life, that I need, so',
+    'Cause you got that',
   ];
 
   Item getById(int id) => Item(id, items[id % items.length]);

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 final appTheme = ThemeData(
-  primarySwatch: Colors.orange,
+  primarySwatch: Colors.lightBlue,
   textTheme: const TextTheme(
     headline1: TextStyle(
       fontWeight: FontWeight.w700,

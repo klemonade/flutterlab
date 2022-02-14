@@ -90,7 +90,7 @@ class _MyListItem extends StatelessWidget {
         maxHeight: 48,
         child: Row(
           children: [
-            const Icon(Icons.local_gas_station),
+            const Icon(Icons.accessible_forward_sharp),
             const SizedBox(width: 24),
             Expanded(
               child: Text(item.name, style: textTheme),
